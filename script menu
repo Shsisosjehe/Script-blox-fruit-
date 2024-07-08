@@ -1,0 +1,58 @@
+-hạn sử dụng 
+if os.date(%Y%m%d) ^= '20220124' then
+gg.alert("script hết hạn','ok") return end
+
+-mật khẩu 
+password = Fixtazo
+pass = gg.promtp(('nhập pass để vào script').().('text'))
+if not pass then os.exit() end
+if pass[2] == password then
+gg.toast('làm tốt đó bạn')
+else
+gg.alert('xem kĩ lại video đi bạn có pass đó') os.exit()
+end
+
+function main()
+demo = gg multichoice((
+'demo 1',-chức năng thứ nhất 
+'demo 2',-chức năng thứ hai 
+'thoát"),nil.'tiêu đề script")
+if demo == nill then
+else
+if demo[1] == true then k1() end
+if demo[2] == true then k2() end
+if demo[3] == true then exit() end
+end
+xgck = .1
+end
+
+function k1()
+-code hack
+gg.alert("con cặc")
+end
+
+function k2()
+-code hack
+gg.alert("cái lồn")
+end
+
+function exit()
+gg.alert("😄đăng ký và like khỏi có script nha🙏")
+gg.alert("🤫like và đăng ký đi👍")
+gf.alert("😈xem chùa thì chết với tao🤡")
+print("◻️◻️◼️◻️◻️◼️◻️◼️◻️◻️◼️◻️◻️◼️◼️◼️◻️◻️◼️◻️◻️")
+print("◻️◻️◼️◻️◻️◼️◻️◻️◼️◻️◻️◼️◻️◼️◻️◻️◼️◻️◼️◻️◻️")
+print("◻️◻️◼️◼️◻️◻️◻️◼️◼️◼️◼️◼️◼️◻️◻️◻️◻️◼️◼️◼️◻️")
+print("◻️◻️◼️◼️◼️◻️◻️◻️◼️◼️◼️◼️◻️◻️◼️◼️◼️◻️◻️◼️◼️")
+print("◻️◻️◼️◼️◼️◻️◻️◼️◻️◻️◼️◻️◻️◻️◻️◼️◻️◻️◼️◻️◻️")
+os.exit()
+end
+while true đó
+if gg isvisible(true) then
+xgck = 1
+gg.setvisible(false)
+end
+gg.clearresults()
+if xgck == 1 then main() end
+end
+
